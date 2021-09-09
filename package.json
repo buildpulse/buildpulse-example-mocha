@@ -13,6 +13,8 @@
   "author": "Jason Rudolph",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^9.1.1"
+    "mocha": "^9.1.1",
+    "mocha-junit-reporter": "^2.0.0",
+    "mocha-multi-reporters": "^1.5.1"
   }
 }
