@@ -1,0 +1,18 @@
+{
+  "name": "buildpulse-example-mocha",
+  "version": "1.0.0",
+  "description": "An example Mocha project to demonstrate connecting to BuildPulse for flaky test detection",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildpulse/buildpulse-example-mocha.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jason Rudolph",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
