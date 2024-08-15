@@ -18,7 +18,7 @@ jobs:
 
     - run: npm ci
 
-    - run: npm test -- --reporter mocha-multi-reporters --reporter-options configFile=mocha-reporter-config.json
+    - run: npm test -- --reporter mocha-multi-reporters --reporter-options configFile=mocha-reporter-config.json --retries 5
 
     - name: Upload test results to BuildPulse for flaky test detection
       if: '!cancelled()' # Run this step even when the tests fail. Skip if the workflow is cancelled.

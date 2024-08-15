@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.008" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-08-15T21:37:42" tests="0" time="0.000" failures="0" retries="0">
+  </testsuite>
+  <testsuite name="sum" timestamp="2024-08-15T21:37:42" tests="1" file="/Users/siddange/code/buildpulse/buildpulse-examples/buildpulse-example-mocha/test/sum.spec.js" time="0.001" failures="0" retries="0">
+    <testcase name="sum adds 1 + 2 to equal 3" time="0.000" classname="adds 1 + 2 to equal 3" retries="0" conclusion="success">
+    </testcase>
+  </testsuite>
+  <testsuite name="flaky" timestamp="2024-08-15T21:37:42" tests="1" file="/Users/siddange/code/buildpulse/buildpulse-examples/buildpulse-example-mocha/test/sum.spec.js" time="0.007" failures="0" retries="9">
+    <testcase name="flaky flaky failure test with retries enabled" time="0.000" classname="flaky failure test with retries enabled" retries="9" conclusion="success">
+    </testcase>
+  </testsuite>
+</testsuites>

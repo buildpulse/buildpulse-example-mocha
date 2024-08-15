@@ -6,3 +6,11 @@ describe('sum', () => {
         assert.equal(sum(1, 2), 3);
     });
 });
+
+describe('flaky', function () {
+    it('flaky failure test with retries enabled', function () {
+        const random = Math.random() * 100;
+        const passes = random > 70;
+        assert(passes);
+    });
+});
